@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Slate-300: hsl(212, 45%, 89%);
+  --Slate-500: hsl(216, 15%, 48%);
+  --Slate-900: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--Slate-300);
+  font-family: "outfit", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.qrSec {
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
+  padding: 1rem 1rem 1.25rem;
+  background-color: white;
+  box-shadow: 3px 3px 20px(var(--Slate-500));
+  border-radius: 10px;
+}
+
+.qrSec img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.qrSec h1{
+  max-width: 90%;
+  font-weight: 700;
+  font-size: 1.37rem;
+  color: var(--Slate-900);
+  margin: 1rem 0
+}
+
+.qrSec p{
+  max-width: 90%;
+  color: var(--Slate-500);
+  margin: 0 auto;
+}
